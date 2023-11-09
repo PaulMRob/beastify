@@ -23,6 +23,12 @@ function listenForClicks() {
           return browser.runtime.getURL("beasts/snake.jpg");
         case "Turtle":
           return browser.runtime.getURL("beasts/turtle.jpg");
+        case "Wolf":
+          return browser.runtime.getURL("beasts/wolf.jpg");
+        case "Cheetah":
+          return browser.runtime.getURL("beasts/cheetah.jpg");
+        case "Evilcat":
+          return browser.runtime.getURL("beasts/evilcat.jpg");
       }
     }
 
